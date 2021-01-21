@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #19a2ae;
+}
+
+.bg-pattern-top {
+  position: fixed;
+  bottom: 25%;
+  right: 50%;
+}
+
+.bg-pattern-bottom {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 8px 35px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 8px 35px rgba(0, 0, 0, 0.25);
+  background-color: white;
+}
+
+.card .card-background {
+  border-radius: 15px 15px 0 0;
+  background-color: black;
+}
+
+.card .card-profile {
+  position: relative;
+  padding: 25px 0;
+  color: #6a6f81;
+}
+
+.card .card-profile .profile-pic {
+  position: absolute;
+  top: -22%;
+  left: 35%;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.card .card-profile .profile-info {
+  padding-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 135px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card .card-profile .profile-info .info-resume {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.card .card-profile .profile-info .info-resume .head {
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+
+.card .card-profile .profile-info .info-resume .head .name {
+  color: #2d3248;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.card .card-profile .profile-info .info-resume .city {
+  text-align: center;
+  font-size: 14px;
+}
+
+.card .card-profile .profile-info .info-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-top: 1px solid rgba(150, 150, 150, 0.3);
+  padding-top: 30px;
+}
+
+.card .card-profile .profile-info .info-stats .stat-item {
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+}
+
+.card .card-profile .profile-info .info-stats .stat-item .item-head {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  color: #2d3248;
+}
+/*# sourceMappingURL=style.css.map */
